@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-2.1.0.min.js" type="text/javascript"></script>
+    <link href="Css/Main.css" rel="stylesheet" type="text/css" />
+    <script src="Jss/Registrarse.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>Registrarse</title>
+</head>
+<body>
+    <div id="divPrima" class="container" >
+        <div style="text-align:center">
+            <table id="tablaPrincipal">
+                <tr id="imagen">
+                    <td id="ministerio">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Primero debe escribir un nombre de usuario </p>
+                        <input type="text" class="borde" id="Usuario" placeholder="Usuario" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="borde">
+                        <p>Ahora escriba una contraseña </p>
+                        <input type="text" class="borde" id="Contraseña" placeholder="Contraseña" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="borde">
+                        <p>Si está seguro, repita la contraseña</p>
+                        <input type="text" class="borde" id="Repetida" placeholder="Re-ingreso" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="borde">
+                        <p>¿Cuantas personas van a compartir la cuenta?</p>
+                        <input type="number" class="borde" id="Cantidad" placeholder="Grupo familiar/Individuo" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="btnAceptar" class="btn btn-primary"  data-toggle="modal" href="#extra">Aceptar</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="extra" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" style="align-content:center" id="title"></h3>
+                </div>
+                <div class="modal-footer" id="footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Denegar</button>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

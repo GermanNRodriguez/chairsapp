@@ -1,0 +1,8 @@
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Access\bin\Debug\Access.dll
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Access\bin\Debug\Access.pdb
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Access\bin\Debug\Reservar.dll
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Access\bin\Debug\Reservar.pdb
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Access\obj\Debug\Access.csprojAssemblyReference.cache
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Access\obj\Debug\Access.csproj.CopyComplete
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Access\obj\Debug\Access.dll
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Access\obj\Debug\Access.pdb

@@ -1,0 +1,5 @@
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Reservar\bin\Debug\Reservar.dll
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Reservar\bin\Debug\Reservar.pdb
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Reservar\obj\Debug\Reservar.csprojAssemblyReference.cache
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Reservar\obj\Debug\Reservar.dll
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Reservar\obj\Debug\Reservar.pdb

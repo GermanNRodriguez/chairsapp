@@ -1,0 +1,115 @@
+﻿body {
+    background-image: url('../resource/backgroundVacio.jpg');
+    background-size: cover;
+}
+
+#btnAdmin{
+    margin:5px;
+}
+#divPrimario {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top:50px;
+}
+#divPrima {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 95px;
+}
+#imagen {
+    width: 400px;
+    height: 150px;
+    box-sizing: content-box;
+    
+}
+#ministerio {
+    background-position: center;
+    background-image: url('../resource/logo_negro.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+#tablaPrincipal {
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+}
+
+#tabla2 {
+    min-height:500px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 10px;
+    border:dotted;
+    border-color:black;
+    border-radius:10px;
+}
+#btnAceptarGuardar{
+    margin-top:20px;
+}
+.titulo{
+    margin:0;
+    text-align:center;
+    font-size:30px;
+    font-weight:700;
+    color:cornflowerblue;
+}
+.espacioDatos{
+    margin:0;
+    color:cornflowerblue;
+    font-size:20px;
+}
+.borde {
+    width: 350px;
+    height: 30px;
+    outline: none;
+    border: hidden;
+    border-radius: 10px;
+}
+.borde2 {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: hidden;
+    border-radius: 5px;
+    margin-left:10px;
+}
+.borde:focus {
+    border-color: gray;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.borde2:focus {
+    border-color: gray;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.escribir {
+    margin-right:10px;
+}
+p {
+    color:darkorange;
+
+    font-weight:700;
+}
+.pregunta {
+    background-color: transparent;
+    border: none;
+    border-top:groove;
+    border-bottom: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+}
+
+pregunta:focus {
+    border-color: gray;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+.text{
+    margin-bottom:30px;
+}
+#como{
+    height:50px;
+    margin-bottom:0px;
+    margin-top:0px;
+}

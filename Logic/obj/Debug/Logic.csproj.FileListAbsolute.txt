@@ -1,0 +1,10 @@
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Logic\bin\Debug\Logic.dll
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Logic\bin\Debug\Logic.pdb
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Logic\bin\Debug\Access.dll
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Logic\bin\Debug\Reservar.dll
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Logic\bin\Debug\Access.pdb
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Logic\bin\Debug\Reservar.pdb
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Logic\obj\Debug\Logic.csproj.CopyComplete
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Logic\obj\Debug\Logic.dll
+C:\Users\Gerniroz\source\repos\PáginaWebAsientos\Logic\obj\Debug\Logic.pdb

@@ -1,0 +1,167 @@
+﻿body {
+    background-image: url('../resource/invertido.jpg');
+    background-size: cover;
+}
+iframe {
+    width: 0;
+    height: 0;
+}
+.root {
+    display: flex;
+}
+
+.calendar {
+    padding: 20px 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    margin: 10px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+    font-family: sans-serif;
+}
+.calendar_header {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.calendar .control {
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer; /*PARA QUE EL CURSOR CAMBIE CUANDO 
+    SE POSA SOBRE EL BOTON!!! :OOOO*/
+    padding: 0 5px;
+}
+
+.grid_header, .grid_body {
+    display: grid;
+    color: black;
+    grid-template-columns: repeat(7, 1fr);
+}
+.grid_header {
+    margin: 20px;
+}
+.grid_body {
+    grid-auto-rows: 50px;
+}
+.grid_cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid_cell--gd {
+    cursor: pointer;
+}
+.grid_cell--selected {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px black inset;
+}
+.grid_cell--disabled {
+    color: gray;
+    cursor: not-allowed;
+}
+.grid_cell--worship {
+    color: orangered;
+}
+
+.control {
+    background-color: transparent;
+    color: green;
+    border-color: transparent;
+    cursor: pointer;
+}
+.control:focus {
+        outline: none;
+    }
+
+#data {
+    display: flex;
+}
+.elData {
+    padding: 20px 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    height: 110px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+    padding: 20px 10px;
+}
+.reu {
+    padding: 20px 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    min-width: 300px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    height: 110px;
+}
+
+.tabla {
+    font-weight: bold;
+}
+
+#worships {
+    padding: 20px 10px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    min-width: 300px;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    position: relative;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+}
+
+.reloj {
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: green;
+    font-family: 'Contrail One', sans-serif;
+    font-size: 3em;
+}
+#btnMas {
+    border-radius: 50%;
+    color: gainsboro;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+#numero {
+    margin: 0;
+    border-radius: 5px;
+    border-color: black;
+}
+tr {
+    justify-content: center;
+}
+.ubicarReloj {
+    display: flex;
+}
+
+

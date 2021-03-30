@@ -1,0 +1,44 @@
+﻿body {
+    background-image: url('../resource/invertido.jpg');
+    background-size:cover;
+}
+
+#btnMain {
+    margin: 5px;
+}
+#divPrimario {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#tablaPrincipal {
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    background-color:transparent;
+}
+#nombreAdmin{
+    width:350px;
+}
+#contraAdmin {
+    width: 350px;
+}
+#button {
+    height: 100px;
+}
+.espacio {
+    height: 100px;
+}
+.escribir {
+    width: 400px;
+    height: 50px;
+    margin-top: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #aaa;
+}
+
+    .escribir:focus {
+        border-color: gray;
+        box-shadow: 0 0 8px 0 dodgerBlue;
+    }

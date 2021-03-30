@@ -1,0 +1,37 @@
+﻿body {
+    
+
+#gvDemostration {
+    float: left;
+    margin-top: 75px;
+}
+
+#gvTemple {
+    margin-right: 130px;
+}
+
+#sillas {
+    margin: 0 auto;
+}
+
+#save {
+    text-align: center;
+}
+
+#btnSave {
+    margin-top: 40px;
+}
+
+.espacioCelda {
+    height: 50px;
+    width: 25px;
+}
+
+.espacioFila {
+    height: 25px;
+}
+
+
+.espacio {
+    height: 30px;
+}

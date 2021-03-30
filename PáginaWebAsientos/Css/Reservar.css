@@ -1,0 +1,97 @@
+﻿body {
+    background-image: url('../resource/backgroundR.jpg');
+    background-size: cover;
+}
+
+#btnAdmin {
+    margin-left:20px;
+    margin-top:20px;
+}
+
+#espacioBoton{
+    margin-bottom:50px;
+    margin-top:50px;
+}
+
+#divPrimario {
+    text-align:center;
+    margin-bottom:30px;
+}
+
+
+#imagen {
+    width:400px;
+    height:150px;
+    box-sizing:content-box;
+}
+
+#ministerio {
+    background-position: center;
+    background-image: url('../resource/logo_negro.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+#tablaPrincipal { 
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+}
+
+#text{
+    height:40px;
+}
+
+#button{
+    height:100px;
+}
+
+#btnAceptar {
+    height:70px;
+    width:90px;
+}
+
+#como{
+    text-align:center;
+    margin:auto;
+    height:30px;
+}
+
+.espacio {
+    height: 30px;
+}
+
+.escribir {
+    width: 350px;
+    height: 50px;
+    outline: none;
+    border: hidden;
+    border-radius: 5px;
+}
+
+.escribir:focus{
+    border-color:gray;
+    box-shadow:0 0 8px 0 dodgerBlue;
+
+}
+
+.espacioCelda {
+    height:50px;
+    width:25px;
+}
+.espacioFila {
+    height:25px;
+}
+
+.pregunta {
+    background-color:transparent;
+    border-color:transparent;
+}
+
+p1 {
+    text-align:center;
+    margin:0 auto;
+}
+ 

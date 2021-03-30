@@ -1,0 +1,12 @@
+﻿body {
+    background-image: url('../resource/backgroundVacio.jpg');
+    background-size: cover;
+}
+h1{
+    text-align:center;
+    color:white;
+}
+p {
+    text-align: center;
+    color: white;
+}
